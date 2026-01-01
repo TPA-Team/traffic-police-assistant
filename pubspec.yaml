@@ -1,0 +1,39 @@
+name: police_traffic_assistant
+description: "Police Traffic Assistant App"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # حزم إضافيّة
+  intl: ^0.18.0
+  http: ^0.13.6
+  flutter_secure_storage: ^9.2.4
+  cupertino_icons: ^1.0.8
+
+  # 📸 Image picker لالتقاط الصور أو اختيارها من المعرض
+  image_picker: ^0.8.7+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # إذا عندك assets للصور أو الخطوط
+  # assets:
+  #   - assets/images/
+  # fonts:
+  #   - family: MyFont
+  #     fonts:
+  #       - asset: fonts/MyFont-Regular.ttf
+  #       - asset: fonts/MyFont-Bold.ttf
+  #         weight: 700
